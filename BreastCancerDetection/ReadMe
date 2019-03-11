@@ -1,6 +1,6 @@
 Problem Definition
 
-Breast cancer is the most common cancer diagnosed among U.S. women (excluding skin cancers) with about 252,710 new cases expected to be diagnosed in 2017. It is the second leading cause of cancer death among women in the U.S., after lung cancer; 40,610 women in the U.S. are expected to die from this disease in 2017 [2]. Currently, the most used techniques to detect breast cancer in early stages are: Mammography (63% to 97% correctness), FNA (Fine Needle Aspiration) with visual interpretation (65% to 98% correctness) and surgical biopsy (approximately 100% correctness). Therefore,mammography and FNA with visual interpretation correctness varies widely, and the surgical biopsy, although reliable,is invasive and costly [3]. Our breast cancer wisconsin dataset have 32 features that are computed from a digitized image of a Fine Needle Aspirate (FNA) of a breast mass. We will use classification and regression algorithms to find out the accuracy. 
+Breast cancer is the most common cancer diagnosed among U.S. women (excluding skin cancers) with about 252,710 new cases expected to be diagnosed in 2017. It is the second leading cause of cancer death among women in the U.S., after lung cancer; 40,610 women in the U.S. are expected to die from this disease in 2017 [2]. Currently, the most used techniques to detect breast cancer in early stages are: Mammography (63% to 97% correctness), FNA (Fine Needle Aspiration) with visual interpretation (65% to 98% correctness) and surgical biopsy (approximately 100% correctness). Therefore,mammography and FNA with visual interpretation correctness varies widely, and the surgical biopsy, although reliable,is invasive and costly [3]. Our breast cancer wisconsin dataset have 32 features that are computed from a digitized image of a Fine Needle Aspirate (FNA) of a breast mass. I use classification and regression algorithms to find out the accuracy. 
 
 List of methods
 
@@ -54,5 +54,5 @@ This dataset consists of 32 features and 569 patients records.
 
 
 Experiment Design
- compare the accuracy of the Breast Cancer Wisconsin (Diagnostic) Data Set Predict whether the cancer is benign or malignant.  We will use the K-Fold Cross Validation for our dataset to detect the TPR and FPR to find out the ROC curve and AUC for the comparison of above mentioned algorithms. 
+ compare the accuracy of the Breast Cancer Wisconsin (Diagnostic) Data Set Predict whether the cancer is benign or malignant.  I am use the K-Fold Cross Validation for our dataset to detect the TPR and FPR to find out the ROC curve and AUC for the comparison of above mentioned algorithms. 
 
