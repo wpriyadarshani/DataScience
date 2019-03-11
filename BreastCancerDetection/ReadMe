@@ -1,0 +1,58 @@
+Problem Definition
+
+Breast cancer is the most common cancer diagnosed among U.S. women (excluding skin cancers) with about 252,710 new cases expected to be diagnosed in 2017. It is the second leading cause of cancer death among women in the U.S., after lung cancer; 40,610 women in the U.S. are expected to die from this disease in 2017 [2]. Currently, the most used techniques to detect breast cancer in early stages are: Mammography (63% to 97% correctness), FNA (Fine Needle Aspiration) with visual interpretation (65% to 98% correctness) and surgical biopsy (approximately 100% correctness). Therefore,mammography and FNA with visual interpretation correctness varies widely, and the surgical biopsy, although reliable,is invasive and costly [3]. Our breast cancer wisconsin dataset have 32 features that are computed from a digitized image of a Fine Needle Aspirate (FNA) of a breast mass. We will use classification and regression algorithms to find out the accuracy. 
+
+List of methods
+
+I will implement following methods for classification and regression to compare the accuracy of the dataset.
+  Logistic Regression
+  Linear Regression
+  KNN 
+  Deep Learning (Neural Networks)
+  SVM
+  Naïve Bayes Classifier
+  Decision Tree
+  Linear Discriminant Analysis
+  Random Forests
+
+Description of Data
+I am using the Breast Cancer Wisconsin (Diagnostic) Data Set - Predict whether the cancer is benign or malignant from Kaggle [1]. 
+
+This dataset consists of 32 features and 569 patients records. 
+  ID number
+  Diagnosis : The diagnosis of breast tissues (M = malignant, B = benign)
+  Radius_mean :mean of distances from center to points on the perimeter
+  Texture_mean : standard deviation of gray-scale values
+  Perimeter_mean : mean size of the core tumor
+  Area_mean
+  Smoothness_mean : mean of local variation in radius lengths
+  Compactness_mean : mean of perimeter^2 / area - 1.0
+  Concavity_mean : mean of severity of concave portions of the contour
+  concave points_mean : mean for number of concave portions of the contour
+  Symmetry_mean
+  Fractal_dimension_mean : mean for "coastline approximation" - 1
+  Radius_se :standard error for the mean of distances from center to points on the perimeter
+  Texture_se : standard error for standard deviation of gray-scale values
+  Perimeter_se
+  Area_se
+  Smoothness_se : standard error for local variation in radius lengths
+  Compactness_se : standard error for perimeter^2 / area - 1.0
+  Concavity_se : standard error for severity of concave portions of the contour
+  concave points_se : standard error for number of concave portions of the contour
+  Symmetry_se
+  Fractal_dimension_se : standard error for "coastline approximation" - 1
+  Radius_worst : "worst" or largest mean value for mean of distances from center to points on the perimeter
+  Texture_worst : "worst" or largest mean value for standard deviation of gray-scale values
+  Perimeter_worst
+  Area_worst
+  Smoothness_worst : "worst" or largest mean value for local variation in radius lengths
+  Compactness_worst : "worst" or largest mean value for perimeter^2 / area - 1.0
+  Concavity_worst : "worst" or largest mean value for severity of concave portions of the contour
+  concave points_worst : "worst" or largest mean value for number of concave portions of the contour
+  Symmetry_worst 
+  Fractal_dimension_worst : "worst" or largest mean value for "coastline approximation" - 1
+
+
+Experiment Design
+ compare the accuracy of the Breast Cancer Wisconsin (Diagnostic) Data Set Predict whether the cancer is benign or malignant.  We will use the K-Fold Cross Validation for our dataset to detect the TPR and FPR to find out the ROC curve and AUC for the comparison of above mentioned algorithms. 
+
