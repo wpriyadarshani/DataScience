@@ -4,7 +4,7 @@ Breast cancer is the most common cancer diagnosed among U.S. women (excluding sk
 
 List of methods
 
-I will implement following methods for classification and regression to compare the accuracy of the dataset.
+I implement following methods for classification and regression to compare the accuracy of the dataset.
   Logistic Regression
   Linear Regression
   KNN 
