@@ -4,7 +4,7 @@ Breast cancer is the most common cancer diagnosed among U.S. women (excluding sk
 
 List of methods
 
-I implement following methods for classification and regression to compare the accuracy of the dataset.
+we implement following methods for classification and regression to compare the accuracy of the dataset.
   Logistic Regression
   Linear Regression
   KNN 
@@ -16,7 +16,7 @@ I implement following methods for classification and regression to compare the a
   Random Forests
 
 Description of Data
-I am using the Breast Cancer Wisconsin (Diagnostic) Data Set - Predict whether the cancer is benign or malignant from Kaggle [1]. 
+we are using the Breast Cancer Wisconsin (Diagnostic) Data Set - Predict whether the cancer is benign or malignant from Kaggle [1]. 
 
 This dataset consists of 32 features and 569 patients records. 
   ID number
@@ -54,5 +54,5 @@ This dataset consists of 32 features and 569 patients records.
 
 
 Experiment Design
- compare the accuracy of the Breast Cancer Wisconsin (Diagnostic) Data Set Predict whether the cancer is benign or malignant.  I am use the K-Fold Cross Validation for our dataset to detect the TPR and FPR to find out the ROC curve and AUC for the comparison of above mentioned algorithms. 
+ compare the accuracy of the Breast Cancer Wisconsin (Diagnostic) Data Set Predict whether the cancer is benign or malignant.  we use the K-Fold Cross Validation for our dataset to detect the TPR and FPR to find out the ROC curve and AUC for the comparison of above mentioned algorithms. 
 
